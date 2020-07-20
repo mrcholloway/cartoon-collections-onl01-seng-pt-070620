@@ -7,3 +7,7 @@ def summon_captain_planet(element)
   element.collect { |x| x.capitalize + "!" }
 end
 
+def long_planeteer_calls(words)
+  words.any? { |x| x.length > 4 }
+end
+
