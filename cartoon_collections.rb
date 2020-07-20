@@ -3,3 +3,6 @@ def roll_call_dwarves(names)
     puts "#{index + 1}. #{dwarf}"}
 end
 
+def summon_captain_planet(element)
+  element.collect { |x| x.capitalize + "!" }
+end
