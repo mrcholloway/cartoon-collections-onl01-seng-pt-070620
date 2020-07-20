@@ -6,3 +6,4 @@ end
 def summon_captain_planet(element)
   element.collect { |x| x.capitalize + "!" }
 end
+
